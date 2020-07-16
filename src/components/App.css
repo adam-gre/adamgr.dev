@@ -78,17 +78,41 @@ body {
 
 .s-l:after {
   content: '';
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
   background: #EFEFEF;
   -webkit-transform-origin: 100% 0;
   -ms-transform-origin: 100% 0;
-  transform-origin: 100% 0;
+  transform-origin: 60% 0;
   -webkit-transform: skew(-30deg);
   -ms-transform: skew(-30deg);
   transform: skew(-60deg);
   z-index: -1;
+}
+
+.progress-bar {
+  background-image: url(https://images.unsplash.com/photo-1557683316-973673baf926?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80);
+  background-attachment: fixed;
+  background-size: 100%;
+}
+
+.social {
+  color: #6c757d;
+}
+
+.gitlab:hover {
+  fill: rgba(252,109,39,1);
+}
+
+.github:hover {
+  fill: rgba(0,0,0,1);
+}
+
+.twitter:hover {
+  fill: #5da5d5;
+}
+
+.linkedin:hover {
+  fill: #0f78b5;
 }
