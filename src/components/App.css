@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Khula:wght@300;400;600;700;800&display=swap');
+
+h1 {
+  font-family: 'Khula', sans-serif;
+}
+
+h2 {
+  font-family: 'Khula', sans-serif;
+}
+
+h3 {
+  font-family: 'Khula', sans-serif;
+}
+
+P {
+  font-family: 'Khula', sans-serif;
+}
+
+a {
+  font-family: 'Khula', sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.nav-item {
+  color: rgb(72, 72, 72)!important;
+}
+
+.bg-secondary {
+  background-color: #efefef!important;
+}
+
+.bg-secondary-grad {
+  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(239,239,239,1) 50%, rgba(255,255,255,1) 100%);
+}
+
+body {
+  color: rgb(72, 72, 72);
+  display: block;
+}
+
+.s-l:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #EFEFEF;
+  -webkit-transform-origin: 100% 0;
+  -ms-transform-origin: 100% 0;
+  transform-origin: 100% 0;
+  -webkit-transform: skew(-30deg);
+  -ms-transform: skew(-30deg);
+  transform: skew(-60deg);
+  z-index: -1;
+}
