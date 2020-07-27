@@ -28,8 +28,8 @@ class Social extends React.Component {
                     </a>
                 </div>
                 <div className="col">
-                    <a href="https://linkedin.com/in/adam-gre/" rel="noopener noreferrer" target="_blank" className="icon">
-                        <AiTwotoneMail size="30px" className="linkedin" />
+                    <a href="&#109;a&#105;lt&#111;&#58;&#97;dam&#64;ad%&#54;1m&#37;67%72&#46;%6&#52;%65%&#55;6" rel="noopener noreferrer" target="_blank" className="icon">
+                        <AiTwotoneMail size="30px" className="email" />
                     </a>
                 </div>
             </div>

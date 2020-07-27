@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Link } from 'react-router-dom';
 import Home from './pages/Home.js';
 import Projects from './pages/Projects.js';
 import Contact from './pages/Contact.js';
+import Fitness from './pages/Fitness.js';
 import './App.css';
 
 class App extends React.Component {
@@ -36,6 +37,7 @@ class App extends React.Component {
           <Route exact path="/" component={Home} />
           <Route path="/projects" component={Projects} />
           <Route path="/contact" component={Contact} />
+          <Route path="/fitness" component={Fitness} />
 
         </div>
       </BrowserRouter>

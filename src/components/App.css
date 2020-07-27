@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Khula:wght@300;400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 h1 {
   font-family: 'Khula', sans-serif;
@@ -117,6 +118,10 @@ body {
   fill: #0f78b5;
 }
 
+.email:hover {
+  fill: #000;
+}
+
 @media (min-width: 600px) {
   .list-group-item:first-child {
     border-radius: 50px 0px 0px 50px!important;
@@ -141,3 +146,62 @@ body {
 .list-group-item:hover {
   background-color: #efefef;
 }
+
+.carousel-item-smaller {
+  padding-left: 15%;
+  padding-right: 15%;
+  width: 100%;
+  height: 56.25vh;
+}
+
+.carousel-inner > .item {
+  transition: ease-in-out left!important;
+}
+
+.carousel-caption {
+  background-color: rgba(0,0,0,0.3);
+  border-radius: 10px;
+}
+
+.divider-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.divider-bottom svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 56px;
+}
+
+.divider-bottom .shape-fill {
+  fill: #FFFFFF;
+}
+
+.gradient {
+  background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+}
+
+.font-montserrat {
+  font-family: 'Montserrat', sans-serif!important;
+}
+
+.carousel-control-prev {
+  background-color: rgba(0,0,0,0.3)!important;
+  border-radius: 25px 0px 0px 25px;
+  margin-left: 5%;
+  width: 10%;
+}
+
+.carousel-control-next {
+  background-color: rgba(0,0,0,0.3)!important;
+  border-radius: 0 25px 25px 0;
+  margin-right: 5%;
+  width: 10%;
+}
+
