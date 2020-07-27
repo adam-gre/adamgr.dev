@@ -97,7 +97,7 @@ body {
   background-size: 100%;
 }
 
-.social {
+.icon {
   color: #6c757d;
 }
 
@@ -115,4 +115,29 @@ body {
 
 .linkedin:hover {
   fill: #0f78b5;
+}
+
+@media (min-width: 600px) {
+  .list-group-item:first-child {
+    border-radius: 50px 0px 0px 50px!important;
+    margin-left: auto;
+  }
+
+  .list-group-item:last-child {
+    border-radius: 0px 50px 50px 0px!important;
+    margin-right: auto;
+  }
+}
+
+.php:hover {
+  color: #5f7caf;
+}
+
+.react:hover {
+  color: #23d9fd;
+}
+
+
+.list-group-item:hover {
+  background-color: #efefef;
 }

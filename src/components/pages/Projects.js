@@ -1,6 +1,7 @@
 import React from 'react';
 import '../App.css';
-import { BrowserRouter, Link } from 'react-router-dom'; 
+import { BrowserRouter, Link } from 'react-router-dom';
+import { FaReact, FaPhp } from "react-icons/fa";
 
 class Projects extends React.Component {
     render() {
@@ -12,22 +13,19 @@ class Projects extends React.Component {
                     </div>
                 </div>
 
-                <div className="container-fluid">
-                    <div className="row">
-                        <ul class="list-group list-group-horizontal-xl">
-                            <li class="list-group-item image-nav flex-fill ">
-                                <Link to="/projects/php">
-                                    <img src={require('../assets/php.svg')} alt="PHP" />
-                                </Link>
-                            </li>
-                            <li class="list-group-item image-nav flex-fill ">
-                                <Link to="/projects/react">
-                                    <img src={require('../assets/react.svg')} alt="React" />
-                                </Link>
-                            </li>
-                            <li class="list-group-item">Morbi leo risus</li>
-                        </ul>
-                    </div>
+                <div className="container-fluid w-100 pt-5">
+                    <ul class="list-group list-group-horizontal-xl">
+                        <li class="list-group-item">
+                            <Link to="/projects/php" className="icon php">
+                                <FaPhp size="100%" />
+                            </Link>
+                        </li>
+                        <li class="list-group-item">
+                            <Link to="/projects/react" className="icon react">
+                                <FaReact size="100%" />
+                            </Link>
+                        </li>
+                    </ul>
                 </div>
             </BrowserRouter>
         );

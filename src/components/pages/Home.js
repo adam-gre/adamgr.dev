@@ -3,7 +3,7 @@ import '../App.css';
 import $ from 'jquery';
 import Social from '../assets/Social.js';
 
-class Home extends React.Component {    
+class Home extends React.Component {
     componentDidMount() {
         $( "#subtitle" ).fadeIn();
     }
