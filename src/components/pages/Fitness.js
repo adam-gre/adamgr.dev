@@ -29,7 +29,7 @@ class Fitness extends React.Component {
                 </section>
                 <section id="results" className="mt-5" style={{position: "relative"}}>
                     <h1 className="pt-5">Client Results</h1>
-                    <div className="col client">                
+                    <div className="col client mt-5">                
                         <div className="d-flex flex-row text-left">
                             <img className="mr-3 img-responsive rounded" src="https://i.imgur.com/Dztt5tD.jpg" width="128px" height="128px" alt="Generic placeholder" />
                             <div className="ml-3">                            
@@ -38,7 +38,7 @@ class Fitness extends React.Component {
                             </div>
                         </div>    
                     </div>          
-                    <div className="col client">   
+                    <div className="col client mt-5">   
                         <div className="d-flex flex-row text-left">
                             <img className="mr-3 img-responsive rounded" src="https://i.imgur.com/BUdKxPK.jpg" width="128px" height="128px" alt="Generic placeholder" />
                             <div className="ml-3">   
@@ -47,7 +47,7 @@ class Fitness extends React.Component {
                             </div>
                         </div>     
                     </div>  
-                    <div className="col client">        
+                    <div className="col client mt-5">        
                         <div className="d-flex flex-row text-left">
                             <img className="mr-3 img-responsive rounded" src="https://i.imgur.com/eXhuhbI.jpg" width="128px" height="128px" alt="Generic placeholder" />
                             <div className="ml-3">   
