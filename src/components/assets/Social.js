@@ -1,6 +1,6 @@
 import React from 'react';
 import '../App.css';
-import { AiOutlineTwitter, AiFillGithub, AiFillGitlab, AiFillLinkedin } from "react-icons/ai";
+import { AiOutlineTwitter, AiFillGithub, AiFillGitlab, AiFillLinkedin, AiTwotoneMail } from "react-icons/ai";
 
 class Social extends React.Component {
     
@@ -25,6 +25,11 @@ class Social extends React.Component {
                 <div className="col">
                     <a href="https://linkedin.com/in/adam-gre/" rel="noopener noreferrer" target="_blank" className="icon">
                         <AiFillLinkedin size="30px" className="linkedin" />
+                    </a>
+                </div>
+                <div className="col">
+                    <a href="https://linkedin.com/in/adam-gre/" rel="noopener noreferrer" target="_blank" className="icon">
+                        <AiTwotoneMail size="30px" className="linkedin" />
                     </a>
                 </div>
             </div>
