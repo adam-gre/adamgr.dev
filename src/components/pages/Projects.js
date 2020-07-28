@@ -19,7 +19,7 @@ class Projects extends React.Component {
                                 <img class="card-img" src="https://i.imgur.com/6WQadLA.png" alt="Card" />
                                 <div class="card-img-overlay d-flex flex-column justify-content-end">
                                     <h5 class="card-title">"Legacy Freight Services" Hub</h5>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <p class="card-text">Online "Hub" for an online community.</p>
                                     <a role="button" href="https://hub.legacyfreightservices.co.uk/" class="btn btn-light" target="_blank" rel="noopener noreferrer">Visit Live</a>
                                 </div>
                             </div>
