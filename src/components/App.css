@@ -219,3 +219,46 @@ body {
 .client {
   width: auto;
 }
+
+.card-img-overlay {
+  background: rgb(18,18,18);
+  background: linear-gradient(0deg, rgba(18,18,18,1) 0%, rgba(47,47,47,0) 54%);
+}
+
+@media only screen and (max-width: 1024px) {
+  .card-img-overlay {
+    background: rgba(18,18,18, 0.5);
+  }
+
+  .card-img {
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+  }
+
+  .card-text {
+    font-size: 2vmin;
+  }
+
+  .card-title {
+    font-size: 3vmin;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .card-img-overlay {
+    background: rgba(18,18,18, 0.5);
+  }
+
+  .card-img {
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+  }
+
+  .card-text {
+    font-size: 4vmin;
+  }
+
+  .card-title {
+    font-size: 5vmin;
+  }
+}

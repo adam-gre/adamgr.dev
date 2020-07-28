@@ -13,7 +13,31 @@ class Projects extends React.Component {
                 </div>
 
                 <div className="container-fluid w-100 pt-5">
-                    <div id="carousel" className="carousel slide" data-ride="carousel">
+                    <div className="row">
+                        <div className="col-sm mb-4">
+                            <div class="card bg-dark text-white shadow-lg">
+                                <img class="card-img" src="https://i.imgur.com/6WQadLA.png" alt="Card" />
+                                <div class="card-img-overlay d-flex flex-column justify-content-end">
+                                    <h5 class="card-title">"Legacy Freight Services" Hub</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <a role="button" href="https://hub.legacyfreightservices.co.uk/" class="btn btn-light" target="_blank" rel="noopener noreferrer">Visit Live</a>
+                                </div>
+                            </div>
+                            {/* <img className="img-fluid" src="https://i.imgur.com/LeQZ0R0.png"  alt="Second slide" /> */}
+                        </div>
+                        <div className="col-sm mb-4">
+                            <div class="card bg-dark text-white shadow-lg">
+                                <img class="card-img" src="https://i.imgur.com/LeQZ0R0.png" alt="Card" />
+                                <div class="card-img-overlay d-flex flex-column justify-content-end">
+                                    <h5 class="card-title">Mock Fitness Site</h5>
+                                    <p class="card-text">Basic website for a mock fitness company.</p>
+                                    <a role="button" href="/fitness" class="btn btn-light">Visit Demo</a>
+                                </div>
+                            </div>
+                            {/* <img className="img-fluid" src="https://i.imgur.com/LeQZ0R0.png"  alt="Second slide" /> */}
+                        </div>
+                    </div>
+                    {/* <div id="carousel" className="carousel slide" data-ride="carousel">
                         <ol className="carousel-indicators">
                             <li data-target="#carousel" data-slide-to="0" className="active"></li>
                             <li data-target="#carousel" data-slide-to="1"></li>
@@ -42,7 +66,7 @@ class Projects extends React.Component {
                             <span className="carousel-control-next-icon" aria-hidden="true"></span>
                             <span className="sr-only">Next</span>
                         </a>
-                    </div>
+                    </div> */}
                 </div>
             </BrowserRouter>
         );
