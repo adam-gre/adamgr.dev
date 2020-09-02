@@ -1,17 +1,12 @@
 import React from 'react';
 import '../App.css';
-import { AiOutlineTwitter, AiFillGithub, AiFillGitlab, AiFillLinkedin, AiTwotoneMail } from "react-icons/ai";
+import { AiFillGithub, AiFillGitlab, AiFillLinkedin, AiTwotoneMail } from "react-icons/ai";
 
 class Social extends React.Component {
     
     render() {
         return (
             <div className="row mt-4" style={{width: "20%", margin: "auto"}}>
-                <div className="col">
-                    <a href="https://twitter.com/adamgr_" rel="noopener noreferrer" target="_blank" className="icon">
-                        <AiOutlineTwitter size="30px" className="twitter"/>
-                    </a>
-                </div>
                 <div className="col">
                     <a href="https://github.com/adam-gre" rel="noopener noreferrer" target="_blank" className="icon">
                         <AiFillGithub size="30px" className="github"/>

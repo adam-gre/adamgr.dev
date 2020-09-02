@@ -60,7 +60,7 @@ class Fitness extends React.Component {
                 
                 <section id="pricing" className="text-light pt-5 mt-5 pb-5" style={{background: "linear-gradient(45deg, rgba(18,18,18,1) 0%, rgba(47,47,47,1) 100%)"}}>
                     <h1 className="mt-5 font-size-24">PLANS & PRICING</h1>
-                    <div className="row pb-5">
+                    <div className="row pb-5 w-100">
                         <div className="col-sm-4 pricing pb-5">
                             <h3>BASIC</h3>
                             <p>3 sessions per week</p>
